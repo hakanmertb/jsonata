@@ -1,4 +1,4 @@
-library jsonata;
+library jsonatawebview;
 
 import 'dart:async';
 import 'dart:math';
