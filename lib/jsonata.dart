@@ -66,7 +66,7 @@ class Jsonata {
 
   Future<String> _loadJavaScriptFromAsset() async {
     //return await rootBundle.loadString('lib/assets/script.js');
-    return await rootBundle.loadString('packages/jsonata/lib/assets/script.js');
+    return await rootBundle.loadString('assets/script.js');
   }
 
   void dispose() {
@@ -93,7 +93,8 @@ class Jsonata {
           }
 
           // Execute the JavaScript with the generated ID
-          await controller!.evaluateJavascript(source: "query($id, '${jql.replaceAll("'", '"')}')");
+          await controller!.evaluateJavascript(
+              source: "query($id, '${jql.replaceAll("'", '"')}')");
 
           // Wait for the result
           while (!found) {

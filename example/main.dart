@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jsonata/jsonata.dart';
+import 'package:jsonatawebview/jsonata.dart';
 
 void main() {
   runApp(

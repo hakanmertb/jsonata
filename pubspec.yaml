@@ -1,6 +1,6 @@
-name: jsonata
+name: jsonatawebview
 description: "JSONata plugin for Flutter"
-version: 0.1.0
+version: 0.1.2
 homepage: https://github.com/fre391/jsonata
 
 environment:
